@@ -1,0 +1,19 @@
+/* Micro-animations */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-animation {
+  animation: spin 1s linear infinite;
+}
+
+@media (max-width: 640px) {
+  .user-text-meta {
+    display: none !important;
+  }
+}
