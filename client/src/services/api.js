@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: '/api',
+    baseURL: 'https://mychatapp-bn67.onrender.com/api',
     headers: {
         "content-Type": 'application/json'
     }
